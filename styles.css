@@ -1,0 +1,29 @@
+h1, h2, h3, h4 {
+    font-family: 'Ubuntu', sans-serif !important;
+    text-decoration: bold;
+}
+p {
+    font-family: 'Ubuntu', sans-serif !important;
+    color: black
+}
+a {
+    color: rgb(255, 100, 0);
+}
+.navbar {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.logo {
+    width: 100px;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
